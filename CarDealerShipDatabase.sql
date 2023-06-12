@@ -34,7 +34,7 @@ FOREIGN KEY (vin) REFERENCES vehicles(vin)
 INSERT INTO dealerships(dealership_id, name, address, phone)
 VALUES (1, "Classy Auto Sales", "308 Arroya lane", "308-462-2356");
 INSERT INTO vehicles (vin, color, year, sold)
-VALUES ("12345678912345678", "red", 2010, true);
+VALUES ("12345678912345678", "blue", 2013, true);
 INSERT INTO inventory (dealership_id, vin)
 VALUES (1, "12345678912345678");
 INSERT INTO sales_contracts (id, vin)
@@ -44,7 +44,7 @@ VALUES (1, "12345678912345678");
 INSERT INTO dealerships (dealership_id, name, address, phone)
 VALUES (2, "Super Car Auto Sales", "537 cream street", "123-972-1095");
 INSERT INTO vehicles (vin, color, year, sold)
-VALUES ("23456789123456789", "blue", 2020, false);
+VALUES ("23456789123456789", "black", 2020, false);
 INSERT INTO inventory (dealership_id, vin)
 VALUES (2, "23456789123456789");
 INSERT INTO sales_contracts (id, vin)
